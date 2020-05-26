@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" content="text/html">
+
+    <title>Servis</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" href="./css/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="./js/script.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav>
+            <li class="logo">
+                <h1 class="logo_text">N | J</h1>
+            </li>
+            <ul>
+                <li><a href="naServisu.html"><i id="glavni" class="fa fa-cog" aria-hidden="true"></i> Currently
+                        serviced</a></li>
+                <label class="label1">LIST <i class="fa fa-sort-desc" aria-hidden="true"></i></label>
+                <li><a href="lista.html"><i id="drugi" class="fa fa-laptop" aria-hidden="true"></i> Devices</a></li>
+                <li><a href="listaServisera.html"><i id="drugi" class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        Servicers</a>
+                </li>
+                <label class="label2">ADD <i class="fa fa-sort-desc" aria-hidden="true"></i></label>
+                <li><a href="servis.html"><i id="treci" class="fa fa-plus" aria-hidden="true"></i></i></i>
+                        Devices</a>
+                </li>
+                <li><a href="serviseri.html"><i id="treci" class="fa fa-plus" aria-hidden="true"></i></i>Servicers</a>
+                </li>
+                <li class="active" id="contact"><a href="about.html"><i id="cetvrti" class="fa fa-info-circle"
+                            aria-hidden="true"></i>
+                        Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="about">
+            <h1>If you have any problems contact us!</h1>
+        </div>
+        <div class="contact-form">
+            <form id="contatct-form" method="POST" action="contact-form-handler.php">
+                <input name="name" type="text" id="name" class="form-control" placeholder="Your Name" required><br>
+                <input name="email" type="email" id="email" class="form-control" placeholder="Your e-mail" required><br>
+                <textarea name="message" id="message" class="form-control" placeholder="Message" rows="4"
+                    required></textarea><br>
+                <input type="submit" class="form-control submit" value="SEND MESSAGE">
+            </form>
+        </div>
+
+        <div class="cleaner">
+        </div>
+
+        <div class="copy-right">
+            <p>Designed and Developed by &copy; 2019 Nemanja Jovic</p>
+        </div>
+</body>
+
+</html>
